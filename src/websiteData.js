@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/11/25 04:37:47
+// 网站数据 - 通过管理后台更新于 2025/11/25 10:27:32
 
 // 站点配置
 export const siteConfig = {
@@ -26,16 +26,16 @@ export const websiteData = [
   },
   {
     "id": 40,
-    "name": "Newbie Village",
+    "name": "QuiYu'Blog",
     "description": "博客",
-    "url": "https://blog.quiyu.cn",
+    "url": "https://blog.quiyun.com",
     "category": "author",
     "tags": [
       "个人博客",
       "教程分享",
       "开发心得"
     ],
-    "icon": "https://icon.nbvil.com/favicon?url=blog.quiyu.cn"
+    "icon": "https://icon.nbvil.com/favicon?url=quiyun.com"
   },
   {
     "id": 1751813976438,
@@ -366,5 +366,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2025-11-24"
+  lastUpdated: "2025-11-25"
 };
